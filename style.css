@@ -13,6 +13,7 @@
     max-width: 420px;
     padding: 20px;
     background: linear-gradient(135deg, blue,darkblue);
+    mrgin-top:30px;
  }
 
  .card {
