@@ -21,6 +21,11 @@ function calculateAttendance() {
         result.innerHTML = "⚠️ Please Enter Valid Details";
         return;
     }
+    if (attend>total){
+        result.innerHTML="🚨Error:Attended classes cannot be greater than conducted classes";
+        return;
+    }
+
 
 
     let currentattendance = ((attend / total) * 100).toFixed(2);
