@@ -70,3 +70,8 @@
     color: darkgreen;
     transform: scale(1.01);
  }
+.copy {
+     margin-top:20px;
+     color: white;
+     text-align: center;
+ }
